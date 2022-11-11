@@ -18,8 +18,13 @@ var app = new Vue (
                 }
                 return this.sliderIndex = this.sliderBackground.length-1
             },
+            slideTimer: function(){
+                setInterval( this.slideRight, 3000 )
+            },
             
-
-        }
+        },
+        mounted () {
+            this.slideTimer()
+          },
     }
 )
