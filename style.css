@@ -1,0 +1,24 @@
+.mainContainer{
+    height: 100vh;
+}
+
+.slider{
+    height: 50%;
+    width: 80%;
+    
+}
+
+.nav-btn{
+    border: none;
+    background: none;
+}
+
+.left-arrow,
+.right-arrow{
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.nav-btn{
+ 
+}
